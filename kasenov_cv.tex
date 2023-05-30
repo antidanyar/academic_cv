@@ -3,36 +3,46 @@
 \setmainfont{Minion 3}
 \usepackage[margin=2cm]{geometry}
 \usepackage{array, xcolor}
+\usepackage{longtable}
 \usepackage{lipsum}
 \definecolor{lightgray}{gray}{0.8}
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
 \newcolumntype{R}{p{0.8\textwidth}}
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 
+\usepackage{titling}
+\pretitle{\begin{flushleft}\LARGE}
+\posttitle{\par\end{flushleft}\vskip 0.5em}
+\preauthor{\begin{flushleft}\large}
+\postauthor{\par\end{flushleft}}
+\predate{\begin{flushleft}\large}
+\postdate{\par\end{flushleft}}
+
 \title{\Huge Daniar Kasenov}
-\author{antidanyar@protonmail.com\\mortypines@gmail.com}
-\date{Last update: December 20th, 2022}
+\author{Contact: antidanyar@protonmail.com ; mortypines@gmail.com}
+\date{Last update: May 30th, 2023}
 \begin{document}
 \maketitle
 
 \vspace{-3em}
 
-\section*{Academic interests}
+\subsection*{Academic interests}
 \begin{tabular}{L!{\VRule}R}
 {Broad}&{\bf Generative linguistics, syntax and its interfaces, modular approaches to linguistic theory}\\
-{Narrow}&{Allosemy, Nanosyntax, DM, Turkic languages, Russian}\\
+{Narrow}&{Allosemy, allomorphy, modality, Turkic languages, Russian}\\
 \end{tabular}
 
-\section*{Work Experience}
+\subsection*{Work Experience}
 \begin{tabular}{L!{\VRule}R}
 {2020--today}&{\bf Research assistant at HSE Laboratory of Formal Models in Linguistics}\\
 {}&{Research, organizing seminars for presenting students' research}\\
-{Spring 2023}&{Teaching assistant in formal semantics for 2nd and 3rd year linguistics majors}\\
-{Spring 2022} & {Teaching assistant in syntax for 2nd year linguistics majors} \\
-{Spring 2021}&{Teaching assistant in computer science for 1st year linguistics majors}\\[5pt]
+{2023-2024}&{Instructor in syntax for 2nd year linguistics majors at HSE}\\
+{Spring 2023}&{TA in formal semantics for 2nd and 3rd year linguistics majors at HSE}\\
+{Spring 2022} & {TA in syntax for 2nd year linguistics majors at HSE} \\
+{Spring 2021}&{TA in computer science for 1st year linguistics majors at HSE}\\[5pt]
 \end{tabular}
 
-\section*{Education}
+\subsection*{Education}
 \begin{tabular}{L!{\VRule}R}
 2019--2023&{\bf BA Program in Fundamental and Computational Linguistics} (GPA 8.87/10.0)\\
 {}&{Higher School of Economics, Moscow, Russia} \\
@@ -40,36 +50,61 @@
 {} & {Supervisor: Alexander Podobryaev}\\
 \end{tabular}
 
-\section*{Publications}
+\subsection*{Publications}
 \begin{tabular}{L!{\VRule}R}
+{In prep.} & {Non-finite clauses and root modality: a view from Russian}\\
+{} & {\it Intended for proceedings of ConSOLE31}\\
+{In prep.} & {Accounting for Russian superlatives with Nanosyntax}\\
+{} & {\it Intended for proceedings of FDSL15}\\
+{In prep.} & {Russian prepositional phrases on the syntax-prosody interface}\\
+{} & {\it Intended for proceedings of FDSL15}\\
+{} & {w/ Alexandra Shikunova (NRU HSE)}\\
 {In prep.} & {Particle nature of Turkic evidential perfect in Terek Kumyk (in Russian)}\\
 {} & {w/ Daria Paramonova (MSU)}\\
-{In prep.} & {Third person sensitive accusative case allomorphy in Balkar and Kumyk}\\
-{To appear} & {F=PL syncretism and default agreement: case of Shughni}\\
+{Under review} & {Multiple exponence in Russian exhortatives: not what it seems}\\
+{2023} & {Balkar X-marking: a change in progress}\\
+{} & {\it Proceedings of Tu+7}\\
+{2023} & {Third person sensitive accusative case allomorphy in Balkar and Kumyk}\\
+{} & {\it In S. Toldova, P. Caha, P. Rudnev (eds.) Many facets of agreement. LINCOM Europe }\\
+{2022} & {F=PL syncretism and default agreement: case of Shughni}\\
 {} & {\it Typology of Morphosyntactic Parameters, 5(2)}\\
 {} & {w/ Alexander Sergienko and Artyom Badeev (NRU HSE)}\\
-{Under review} & {Multiple exponence in Russian exhortatives: not what it seems}\\
-{To appear} & {Balkar X-marking: a change in progress}\\
-{} & {\it Proceedings of Tu+7}\\
-{To appear} & {Semantic person agreement: a view from Balkar (in Russian)}\\
+{2022} & {Semantic person agreement: a view from Balkar (in Russian)}\\
 {} & {\it Proceedings of Small Languages in Big Linguistics 2022}\\
 {2021} & {Egophoricity as interpretable agreement} \\
 {} & {\it Typology of Morphosyntactic Parameters, 4(2)}
 \end{tabular}
 
-\section*{Grants}
-\begin{tabular}{L!{\VRule}R}
-{2022--2024} & {\bf Scalarity in grammar and lexicon: a semantic-typological approach}\\
-{} & {Supported by Russian Scientific Foundation (\# 22-18-00285)}\\
-{} & {PI: Sergey Tatevosov}\\
-{2021--2023} & {\bf Morphology of agreement}\\
-{} & {Supported by Russian Foundation for Basic Research (\# 20-512-26004)} \\
-{} & {PI: Svetlana Toldova} \\
-\end{tabular}
-
-
-\section*{Conference talks}
-\begin{tabular}{L!{\VRule}R}
+\subsection*{Conference talks}
+\begin{longtable}{L!{\VRule}R}
+{Oct 2023}&{\it Typology of Morphosyntactic Parameters 13}\\
+{} & {Russian \textit{to}-conditionals as hanging topic constructions}\\
+{} & {w/ Daria Paramonova (MSU)}\\
+{Oct 2023}&{\it Typology of Morphosyntactic Parameters 13}\\
+{} & {Verb \textit{dopuskat'}, Neg-Raising, and the nature of scalar alternatives (in Russian)}\\
+{} & {w/ Daria Sidorkina (HSE)}\\
+{May 2023}&{\it RALFE 2023}\\
+{} & {The place of modal ambiguity in the modular grammar}\\
+{May 2023} & {\it WCCFL 41}\\
+{} & {Revisiting Basque xe-comparatives: in support of structural adjacency}\\
+{May 2023} & {\it 12th American Phonology Conference}\\
+{} & {Power of direction in Precedence-based (morpho-)phonology: ABA in Terek Kumyk}\\
+{May 2023} & {\it 12th American Phonology Conference}\\
+{} & {Russian iotation: length is key (second author)}\\
+{} & {w/ Alexandra Shikunova (HSE University)}\\
+{Apr 2023} & {\it Small Languages in Big Linguistics}\\
+{} & {Two paradigms of Balkar agreement and the shape of Nanosyntactic trees}\\
+{Apr 2023} & {\it Small Languages in Big Linguistics} \\
+{} & {Syntactic correlates of dynamic modality in Terek Kumyk (in Russian)} \\
+{} & {w/ Daria Paramonova (MSU)}\\
+{Apr 2023} & {\it NACIL 3}\\
+{} & {Shughni comples predicates and denominal verbs (second author)}\\
+{} & {w/ Alexander Sergienko (HSE university)}\\
+{Apr 2023} & {\it Workshop on Modality in Understudied Languages}\\
+{} & {Variation of dynamic modals on the syntax-semantics interface: case of Terek Kumyk}\\
+{} & {w/ Daria Paramonova (MSU)}\\
+{Apr 2023} & {\it FASL 2023 (alternate list)}\\
+{} & {Syntactic Neg-Raising is untenable: evidence from Russian Negative Concord}\\
 {Feb 2023} & {\it ConSOLE 31}\\
 {} & {Non-finite clauses and root modality: a view from Russian}\\
 {Dec 2022} & {\it 7th Asian Junior Linguists conference (AJL7)}\\
@@ -93,28 +128,41 @@
 {} & {Accounting for Russian superlatives with Nanosyntax}\\
 {Oct 2022} & {\it Formal Description of Slavic Languages 15 (FDSL 15)} \\
 {} & {Stress shift in Russian prepositional phrases: a strict CV approach}\\
-{} & {w/ Alexandra Shikunova (NRU HSE)}\\
+{} & {w/ Alexandra Shikunova (HSE University)}\\
 {Apr 2022} & {\it Small Languages in Big Linguistics} \\
 {} & {Semi-direct speech and semantic agreement: view from Balkar (in Russian)} \\
 {Mar 2022} & {\it Theoretical Linguistics at Keio: Semantics Conference} \\
 {} & {Imperatives as counterfactual antecedents in Russian: a stripped down approach} \\
 {Feb 2022} & {\it Tu+7}\\
 {} & {Balkar conditional marker as antecedent X-marking} \\
+{} & {}\\
 {Dec 2021} & {\it Multiple Exponence workshop @ ZAS}\\
 { } & {Multiple exponence in Russian exhortatives: Not what it seems} \\
 {Nov 2021} & {\it 18th Conference on Typology and Grammar for Young Scholars} \\
 { } & {Indexical shift and monstrous agreement in Balkar} \\
 {Nov 2021} & {\it 18th Conference on Typology and Grammar for Young Scholars} \\
 { } & {Russian {\it imenno}: A diachrony}\\ 
-{} & {w/ Alexandra Konovalova, Alexey Kozlov, and Maxim Bazhukov (NRU HSE)} \\
+{} & {w/ Alexandra Konovalova, Alexey Kozlov, and Maxim Bazhukov (HSE university)} \\
 {Oct 2021} & {\it Typology of Morphosyntactic Parameters 11} \\
 {} & {Egophoricity: a set-based \textsc{agree} analysis} \\
 {Sep 2021} & {\it Slavic Linguistic Society 16 (SLS16)} \\
 {} & {Russian imperative as a counterfactual antecedent}
+\end{longtable}
+
+
+\subsection*{Grants}
+\begin{tabular}{L!{\VRule}R}
+{2022--2024} & {\bf Scalarity in grammar and lexicon: a semantic-typological approach}\\
+{} & {Supported by Russian Scientific Foundation (\# 22-18-00285)}\\
+{} & {PI: Sergey Tatevosov}\\
+{2021--2023} & {\bf Morphology of agreement}\\
+{} & {Supported by Russian Foundation for Basic Research (\# 20-512-26004)} \\
+{} & {PI: Svetlana Toldova} \\
 \end{tabular}
 
-\section*{Other achievements}
+\subsection*{Other achievements}
 \begin{tabular}{L!{\VRule}R}
+{2023} & {\bf Grant for CreteLing summer school (300€ fee waiver)}\\
 {2022} & {\bf Honorable mention in HSE Student Research Paper Competition}\\
 {} & {Multiple exponence in Russian exhortatives: not what it seems}\\
 {2021} & {\bf Honorable mention in HSE Student Resarch Paper Competition}\\
@@ -122,52 +170,50 @@
 \end{tabular}
 
 
-\section*{Additional education}
+\subsection*{Additional education}
 \begin{tabular}{L!{\VRule}R}
-{2023}&{\it Winter school of HSE and KFU ``Qualitative and quantitative approaches to language variation''}\\
+{2023} & {\it CreteLing 2023}\\
+{} & {Advanced courses on phonology, morphosyntax, and semantics}\\
+{2023}&{\it W-NYI Winter School in Linguistics, Cognitive and Cultural Studes}\\
+{} & {Advanced courses on phonology and semantics}\\
+{2022}&{\it Winter school of HSE and KFU ``Qualitative and quantitative approaches to language variation''}\\
 {}&{Student talk: {*}ABA generalizations in modern morphosyntax}\\
 {2022}&{\it Summer school in Logic and Formal Philosophy of LLFP HSE}\\
 {}&{Student talk: Linguistic arguments against Kratzer's semantics for modality (in Russian)}\\
 2022&{\it Tomsk National University's Summer School on Philosophy of Language and Logic}\\
 {}&{Student talk: Towards scalar semantics of quantifiers (in Russian)}\\
 2022&{\it V-NYI Summer School in Linguistics, Cognitive and Cultural Studes}\\
+{} & {Advanced courses on phonology and semantics}\\
 2022&{\it W-NYI Winter School in Linguistics, Cognitive and Cultural Studes}\\
-2021&{\it HSE International Laboratory for Logic, Linguistics and Formal Philosophy's 1st Summer School} \\
+{} & {Advanced courses on phonology and morphosyntax}\\
+{2021}&{\it Summer school in Logic and Formal Philosophy of LLFP HSE}\\
 2021&{\it MCCS Summer School `Possible Worlds Metaphysics'} \\
 2021&{\it W-NYI Winter School in Linguistics, Cognitive and Cultural Studes} \\
+{} & {Advanced courses on morphosyntax and semantics}\\
 2020&{\it Intensional semantics, HSE Laboratory of Formal Models in Linguistics}\\
 {}&{taught by Alexander Podobryaev and Natalia Ivlieva}\\
 2020&{\it V-NYI Summer School in Linguistics, Cognitive and Cultural Studies}\\
-2020&{{\it MIT 24.899: Topics in Linguistics and Philosophy}: course on conditionals} \\
-{}&{taught by Sabine Iatridou, Kai von Fintel, Justin Khoo}\\
+{} & {Advanced courses on morphosyntax and semantics}\\
 \end{tabular}
 
-\section*{Fieldwork}
+\subsection*{Fieldwork experience}
 \begin{tabular}{L!{\VRule}R}
-{August 2022} & {{\bf Kumyk} (Turkic)}\\
+{August 2022} & {{\bf Terek Kumyk} (Turkic)}\\
 {} & {As a member of the Lomonosov Moscow State University Altaic expedition}\\
-{}&{Supervisor: Sergey Tatevosov}\\
+{}&{Supervisors: Sergey Tatevosov, Petr Rossyaykin}\\
 {August 2021} & {{\bf Balkar} (Turkic)}\\
 {} & {As a member of the Lomonosov Moscow State University Altaic expedition}\\
-{}&{Supervisor: Sergey Tatevosov}\\
+{}&{Supervisors: Sergey Tatevosov, Alexander Podobryaev}\\
 \end{tabular}
 
-
-\section*{Languages}
-\begin{tabular}{L!{\VRule}R}
-{\bf English}&{\bf Fluent}\\
-{\bf German}&{\bf Intermediate}\\
-Latin&Reading with a dictionary\\
-Greek&Reading with a dictionary\\
-Finnish&Pre-intermediate\\
-Russian&Native\\
+\subsection*{References}
+\begin{tabular}{l!{\VRule}l}
+Alexander Podobryaev & sasha.podobryaev@gmail.com\\
+Pavel Rudnev & pasha.rudnev@gmail.com\\
+Sergey Tatevosov & tatevosov@gmail.com\\
+Svetlana Toldova&toldova@yandex.ru\\
 \end{tabular}
 
-\section*{Programming skills}
-\begin{tabular}{L!{\VRule}R}
-Python&Intermediate\\
-\LaTeX & Intermediate\\
-\end{tabular}
 
 \end{document}
 
